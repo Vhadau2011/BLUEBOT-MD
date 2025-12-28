@@ -56,6 +56,8 @@ Join the official **Royal Channel** for updates, announcements, and community ac
 Unauthorized redistribution or misrepresentation of this project is not tolerated.  
 Respect the crown. Respect the craft.
 
+> warning modifying the repo is not allowed as it can lead to a permenet ban from are bots best opten is to join are community or channel and follow the **DARKHEART-MD** rules....do not take credit fore the things you dint work on
+
 ---
 
 🜲 **Royal Code | Dark Heart | Eternal Rule** 🜲 
