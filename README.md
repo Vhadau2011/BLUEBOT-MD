@@ -37,7 +37,7 @@ Join the official **Royal Channel** for updates, announcements, and community ac
 [![Join Royal Channel](https://img.shields.io/badge/ROYAL%20CHANNEL-JOIN-black?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbBq9Z8GpLHM7lV2Vn2i)
 
 
-[![Join offical community](https://img.shields.io/badge/ROYAL%20CHANNEL-JOIN-blue?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EJjjbFxlRx0KIpDwpzpRD1)
+[![Join offical community](https://img.shields.io/badge/ROYAL%20COMMUNITY-JOIN-blue?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EJjjbFxlRx0KIpDwpzpRD1)
 
 > Access is public. Loyalty is earned.
 
