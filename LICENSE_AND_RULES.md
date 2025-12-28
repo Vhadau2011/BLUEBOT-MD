@@ -4,7 +4,7 @@
 
 All Rights Reserved.
 
-This repository and all of its contents, including but not limited to source code, scripts, assets, documentation, and media files (collectively referred to as the "Software") are the sole property of Mudau Thendo (mudau_t / thendo_m) and the ⨺⃝Х team. By accessing, using, or distributing this Software, you agree to comply with the following terms and conditions:
+This repository and all of its contents, including but not limited to source code, scripts, assets, documentation, and media files (collectively referred to as the "Software") are the sole property of **mudau_t** and the ⨺⃝Х team. By accessing, using, or distributing this Software, you agree to comply with the following terms and conditions:
 
 ---
 
@@ -14,7 +14,7 @@ You are allowed to:
 
 1. View the code for learning or educational purposes.  
 2. Use the Software **as-is** for personal or non-commercial projects.  
-3. Reference the code in your personal studies, research, or development, provided you **credit Mudau Thendo (mudau_t / thendo_m) and the ⨺⃝Х team**.  
+3. Reference the code in your personal studies, research, or development, provided you **credit mudau_t and the ⨺⃝Х team**.  
 
 ---
 
@@ -25,14 +25,14 @@ You are **strictly prohibited** from:
 1. Modifying, altering, or creating derivative works based on this Software.  
 2. Redistributing the Software, whether modified or unmodified, without explicit written permission.  
 3. Selling, licensing, or claiming this Software as your own.  
-4. Removing, altering, or obfuscating the copyright notice, this license, or any reference to Mudau Thendo (mudau_t / thendo_m) or the ⨺⃝Х team.  
+4. Removing, altering, or obfuscating the copyright notice, this license, or any reference to mudau_t or the ⨺⃝Х team.  
 5. Using the Software to harm, spam, scam, or violate the rules of any third-party platforms or services.  
 
 ---
 
 ## 3. Credit and Attribution
 
-- All users **must give clear credit** to Mudau Thendo (mudau_t / thendo_m) and the ⨺⃝Х team whenever the Software is referenced, demonstrated, or used in public projects.  
+- All users **must give clear credit** to mudau_t and the ⨺⃝Х team whenever the Software is referenced, demonstrated, or used in public projects.  
 - Credit should be placed in **project documentation, README files, or any published content** using this Software.  
 - Any breach of attribution rules will be considered a violation of this license.
 
@@ -67,7 +67,7 @@ You are **strictly prohibited** from:
 1. Use the Software as-is.  
 2. Do **not** modify the Software.  
 3. Do **not** redistribute modified versions.  
-4. Give credit to Mudau Thendo (mudau_t / thendo_m) and the ⨺⃝Х team.  
+4. Give credit to Mudau_t and the ⨺⃝Х team.  
 5. Always trust and follow the instructions of the ⨺⃝Х team.  
 6. Do not use the Software for malicious or illegal purposes.  
 
