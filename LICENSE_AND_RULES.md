@@ -1,6 +1,6 @@
 # LICENSE AND RULES FOR USING THIS REPOSITORY
 
-**Copyright (c) 2025 Mudau Thendo (mudau_t / thendo_m)**
+**Copyright (c) 2025 mudau_t**
 
 All Rights Reserved.
 
