@@ -1,0 +1,25 @@
+{
+  "name": "darkheart-md",
+  "version": "1.0.0",
+  "description": "DARKHEART-MD WhatsApp Multi-Device Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vhadau2011/DARKHEART-MD.git"
+  },
+  "author": "Mudau Thendo",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^5.0.2",
+    "dotenv": "^16.3.1",
+    "pino": "^8.16.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
