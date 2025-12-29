@@ -1,7 +1,7 @@
 "use strict";
 
 /*
- * DARKHEART-MD – FILE INTEGRITY GUARD
+ * BLUEBOT-MD – FILE INTEGRITY GUARD
  * Any modification will break execution.
  */
 
@@ -9,7 +9,7 @@ const fs = require("fs");
 const crypto = require("crypto");
 const path = require("path");
 
-if (!global.__DARKHEART_LOCKED__) {
+if (!global.__BLUEBOT_LOCKED__) {
   console.error("Security chain broken. REPO_RULES not loaded.");
   process.exit(1);
 }
