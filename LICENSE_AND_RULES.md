@@ -1,90 +1,4 @@
 
-## ⨺⃝Х CUSTOM RESTRICTED LICENSE & RULES
-Copyright © 2025 mudau_t
-All Rights Reserved
-This repository and all associated contents (including source code, scripts, assets, documentation, media, configuration files, and metadata) are the exclusive intellectual property of mudau_t and the ⨺⃝Х Team.
-By accessing or using this repository, you agree to comply fully with the rules and conditions listed below.
-## RULES AND CONDITIONS
-
-## Rule 1 — Ownership
-All materials in this repository are owned exclusively by mudau_t and the ⨺⃝Х Team. No ownership rights are transferred under any circumstances.
-Rule 2 — Limited Permission
-You are permitted to view and study the code for educational purposes only. No additional rights are granted.
-
-## Rule 3 — No Modification
-You may NOT modify, refactor, edit, rewrite, translate, or adapt any part of this repository.
-
-## Rule 4 — No Redistribution
-You may NOT redistribute, reupload, mirror, share, or republish this repository or any part of it, whether modified or unmodified.
-
-## Rule 5 — Official Channel
-More more info join are chanel here
-�
-
-## Rule 6 — No Commercial Use
-You may NOT sell, license, monetize, or use this Software for any commercial or profit-based purpose.
-
-## Rule 7 — No Claiming Ownership
-You may NOT claim this Software as your own or remove any credit, watermark, or reference to mudau_t or the ⨺⃝Х Team.
-
-## Rule 8 — Attribution Required
-Any public reference, showcase, or demonstration must clearly credit:
-mudau_t & the ⨺⃝Х Team
-
-## Rule 9 — No Derivative Works
-Forks, clones, remakes, backups, or derivative projects based on this repository are STRICTLY PROHIBITED.
-
-## Rule 10 — No Obfuscation or Bypass
-You may NOT bypass, disable, hide, or tamper with any protection, restriction, or rule defined by this license.
-
-## Rule 11 — Ethical Use Only
-The Software must NOT be used for spam, scams, abuse, hacking, platform violations, or any illegal activity.
-
-## Rule 12 — As-s Software
-This Software is provided AS IS without warranties of any kind. You assume all risks.
-
-## Rule 13 — Official Community Support
-If you need faster assistance join are community here
-�
-
-## Rule 14 — Authority of ⨺⃝Х Team
-All decisions, instructions, updates, and enforcement actions by the ⨺⃝Х Team are final and must be respected.
-
-## Rule 15 — License Revocation
-Permission to use this Software can be revoked at any time, with or without notice.
-
-## Rule 16 — Immediate Termination
-Any violation of these rules results in IMMEDIATE TERMINATION of all rights granted to you.
-
-## Rule 17 — Takedown & Enforcement
-Violations may result in takedown requests, GitHub reports, account bans, or legal action.
-
-## Rule 18 — No Liability
-mudau_t and the ⨺⃝Х Team are not liable for damages, losses, bans, or consequences arising from use or misuse.
-
-## Rule 19 — Legal Compliance
-You are responsible for ensuring compliance with all local laws, platform rules, and regulations.
-
-## Rule 20 — Acceptance
-By accessing, cloning, or using this repository, you confirm that you have read, understood, and agreed to ALL 20 RULES listed above.
-�
-
-## HELP & SUPPORT 
-
-Join are chanel here:
-[![Join Royal Channel](https://img.shields.io/badge/ROYAL%20CHANNEL-JOIN-black?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbBq9Z8GpLHM7lV2Vn2i)
-
-Join are community here:
-
-[![Join offical community](https://img.shields.io/badge/ROYAL%20COMMUNITY-JOIN-blue?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EJjjbFxlRx0KIpDwpzpRD1)
-
-**mudau_t and the ⨺⃝Х Team**
-**© 2025 — ALL RIGHTS RESERVED**
-<p align="center">
-  <img src="https://files.catbox.moe/xxe1ar.jpg" alt="DARKHEART-MD Banner" width="100%">
-</p>  
-
-If you do not agree to these terms, you are strictly prohibited from using this Software.
 
 ## 1. DEFINITIONS
 
@@ -202,3 +116,83 @@ Add DMCA-specific language
 Create a short summary license + full legal license
 Tailor it specifically for WhatsApp bots / automation projects
 Just tell me.
+
+
+
+## ⨺⃝Х CUSTOM RESTRICTED LICENSE & RULES
+Copyright © 2025 mudau_t
+All Rights Reserved
+This repository and all associated contents (including source code, scripts, assets, documentation, media, configuration files, and metadata) are the exclusive intellectual property of **mudau_t and the ⨺⃝Х Team.**
+By accessing or using this repository, you agree to comply fully with the rules and conditions listed below.
+## RULES AND CONDITIONS
+
+## Rule 1 Ownership
+All materials in this repository are owned exclusively by **mudau_t and the ⨺⃝Х Team**. No ownership rights are transferred under any circumstances.
+
+## Rule 2 Limited Permission
+You are permitted to view and study the code for educational purposes only. No additional rights are granted.
+
+## Rule 3 No Modification
+You may NOT modify, refactor, edit, rewrite, translate, or adapt any part of this repository.
+
+## Rule 4 No Redistribution
+You may NOT redistribute, reupload, mirror, share, or republish this repository or any part of it, whether modified or unmodified.
+
+## Rule 5 Official Channel
+More more info join are chanel here
+[![Join Royal Channel](https://img.shields.io/badge/ROYAL%20CHANNEL-JOIN-black?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbBq9Z8GpLHM7lV2Vn2i)
+
+## Rule 6 No Commercial Use
+You may NOT sell, license, monetize, or use this Software for any commercial or profit-based purpose.
+
+## Rule 7 No Claiming Ownership
+You may NOT claim this Software as your own or remove any credit, watermark, or reference to mudau_t or the ⨺⃝Х Team.
+
+## Rule 8 Attribution Required
+Any public reference, showcase, or demonstration must clearly credit:
+mudau_t & the ⨺⃝Х Team
+
+## Rule 9 No Derivative Works
+Forks, clones, remakes, backups, or derivative projects based on this repository are STRICTLY PROHIBITED.
+
+## Rule 10 No Obfuscation or Bypass
+You may NOT bypass, disable, hide, or tamper with any protection, restriction, or rule defined by this license.
+
+## Rule 11 Ethical Use Only
+The Software must NOT be used for spam, scams, abuse, hacking, platform violations, or any illegal activity.
+
+## Rule 12 As-s Software
+This Software is provided AS IS without warranties of any kind. You assume all risks.
+
+## Rule 13 Official Community Support
+If you need faster assistance join are community here
+
+[![Join offical community](https://img.shields.io/badge/ROYAL%20COMMUNITY-JOIN-blue?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EJjjbFxlRx0KIpDwpzpRD1)
+
+## Rule 14 Authority of ⨺⃝Х Team
+All decisions, instructions, updates, and enforcement actions by the ⨺⃝Х Team are final and must be respected.
+
+## Rule 15 License Revocation
+Permission to use this Software can be revoked at any time, with or without notice.
+
+## Rule 16 Immediate Termination
+Any violation of these rules results in IMMEDIATE TERMINATION of all rights granted to you.
+
+## Rule 17 Takedown & Enforcement
+Violations may result in takedown requests, GitHub reports, account bans, or legal action.
+
+## Rule 18 No Liability
+mudau_t and the ⨺⃝Х Team are not liable for damages, losses, bans, or consequences arising from use or misuse.
+
+## Rule 19 Legal Compliance
+You are responsible for ensuring compliance with all local laws, platform rules, and regulations.
+
+## Rule 20 Acceptance
+By accessing, cloning, or using this repository, you confirm that you have read, understood, and agreed to ALL 20 RULES listed above.
+
+**mudau_t and the ⨺⃝Х Team**
+**© 2025 — ALL RIGHTS RESERVED**
+<p align="center">
+  <img src="https://files.catbox.moe/xxe1ar.jpg" alt="DARKHEART-MD Banner" width="100%">
+</p>  
+
