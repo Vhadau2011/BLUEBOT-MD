@@ -1,0 +1,54 @@
+{
+  "name": "bluebot-md",
+  "description": "BLUEBOT-MD WhatsApp Multi-Device Bot",
+  "repository": "https://github.com/Vhadau2011/BLUEBOT-MD",
+  "stack": "heroku-22",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "BOT_NAME": {
+      "description": "The name of your bot",
+      "value": "BLUEBOT-MD"
+    },
+    "PREFIX": {
+      "description": "Command prefix",
+      "value": "."
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number in international format (without +)",
+      "value": "27799648540"
+    },
+    "SESSION_ID": {
+      "description": "Optional session identifier",
+      "value": ""
+    },
+    "WORKTYPE": {
+      "description": "Bot mode (public/private)",
+      "value": "public"
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Keep bot online",
+      "value": "true"
+    },
+    "BOT_PRESENCE": {
+      "description": "Bot presence status",
+      "value": "available"
+    },
+    "LOG_MESSAGES": {
+      "description": "Turn logging on/off",
+      "value": "off"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-1X"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+} 
