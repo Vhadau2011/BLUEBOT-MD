@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2025 YourName
+ * This file is part of the bot project.
+ * You may use, copy, modify, and distribute this file,
+ * but do not claim it as your own or remove this notice.
+ */
+
 module.exports = {
     caller: "kick",
     aliases: [],
@@ -611,3 +618,225 @@ module.exports = {
         }
     }
 }
+
+const groupSettings = new Map() // key = groupId, value = { welcome, goodbye, welcomeEnabled, goodbyeEnabled }
+
+module.exports = {
+    caller: "events",
+    aliases: ["event"],
+    react: "🎉",
+    fromWho: false, // any group admin can use
+
+    async execute(sock, msg, args, { from, isGroup }) {
+        if (!isGroup) return sock.sendMessage(from, { text: "❌ This command works only in groups." }, { quoted: msg })
+
+        const sender = msg.key.participant
+        const group = await sock.groupMetadata(from)
+        const admins = group.participants.filter(p => p.admin).map(p => p.id)
+
+        if (!admins.includes(sender)) {
+            return sock.sendMessage(from, { text: "❌ Only admins can manage events." }, { quoted: msg })
+        }
+
+        if (!groupSettings.has(from)) {
+            groupSettings.set(from, {
+                welcome: "Welcome to the group!",
+                goodbye: "Goodbye!",
+                welcomeEnabled: false,
+                goodbyeEnabled: false
+            })
+        }
+
+        const settings = groupSettings.get(from)
+
+        const subCommand = args[0]?.toLowerCase()
+        const textArg = args.slice(1).join(" ")
+
+        switch (subCommand) {
+            case "setwelcome":
+                if (!textArg) return sock.sendMessage(from, { text: "❌ Usage: .events setwelcome <message>" }, { quoted: msg })
+                settings.welcome = textArg
+                return sock.sendMessage(from, { text: `✅ Welcome message set to:\n${textArg}` }, { quoted: msg })
+
+            case "setgoodbye":
+                if (!textArg) return sock.sendMessage(from, { text: "❌ Usage: .events setgoodbye <message>" }, { quoted: msg })
+                settings.goodbye = textArg
+                return sock.sendMessage(from, { text: `✅ Goodbye message set to:\n${textArg}` }, { quoted: msg })
+
+            case "welcome":
+                if (textArg !== "on" && textArg !== "off") return sock.sendMessage(from, { text: "❌ Usage: .events welcome on/off" }, { quoted: msg })
+                settings.welcomeEnabled = textArg === "on"
+                return sock.sendMessage(from, { text: `✅ Welcome messages are now ${textArg.toUpperCase()}` }, { quoted: msg })
+
+            case "goodbye":
+                if (textArg !== "on" && textArg !== "off") return sock.sendMessage(from, { text: "❌ Usage: .events goodbye on/off" }, { quoted: msg })
+                settings.goodbyeEnabled = textArg === "on"
+                return sock.sendMessage(from, { text: `✅ Goodbye messages are now ${textArg.toUpperCase()}` }, { quoted: msg })
+
+            default:
+                // Help message
+                return sock.sendMessage(from, {
+                    text: `📌 *Events Command Guide* 📌
+
+Usage:
+- .events setwelcome <message> → Set welcome message
+- .events setgoodbye <message> → Set goodbye message
+- .events welcome on/off → Enable or disable welcome messages
+- .events goodbye on/off → Enable or disable goodbye messages
+
+Example:
+.events setwelcome Welcome @user to the group!
+.events welcome on`
+                }, { quoted: msg })
+        }
+    },
+
+    // Optional: function to handle when a member joins or leaves
+    async memberUpdate(sock, action, groupId, userId) {
+        const settings = groupSettings.get(groupId)
+        if (!settings) return
+
+        try {
+            if (action === "add" && settings.welcomeEnabled) {
+                const msg = settings.welcome.replace(/@user/g, `@${userId.split("@")[0]}`)
+                await sock.sendMessage(groupId, { text: msg, mentions: [userId] })
+            }
+            if (action === "remove" && settings.goodbyeEnabled) {
+                const msg = settings.goodbye.replace(/@user/g, `@${userId.split("@")[0]}`)
+                await sock.sendMessage(groupId, { text: msg, mentions: [userId] })
+            }
+        } catch (err) {
+            console.error("Events error:", err)
+        }
+    }
+                    }
+
+const antiLinkGroups = new Map() // key = groupId, value = true/false
+
+module.exports = {
+    caller: "antilink",
+    aliases: ["antilinks", "antilink on/off"],
+    react: "🚫",
+    fromWho: false, // not owner-only, admin control
+
+    async execute(sock, msg, args, { from, isGroup }) {
+        if (!isGroup) return sock.sendMessage(from, { text: "❌ This command works only in groups." }, { quoted: msg })
+
+        const sender = msg.key.participant
+        const group = await sock.groupMetadata(from)
+        const admins = group.participants.filter(p => p.admin).map(p => p.id)
+
+        if (!admins.includes(sender)) return sock.sendMessage(from, { text: "❌ Only admins can manage anti-link." }, { quoted: msg })
+
+        const option = args[0]?.toLowerCase()
+        if (!option || (option !== "on" && option !== "off")) {
+            return sock.sendMessage(from, {
+                text: `📌 *Anti-Link Guide*\nUsage:\n.antilink on → Enable anti-link\n.antilink off → Disable anti-link`
+            }, { quoted: msg })
+        }
+
+        antiLinkGroups.set(from, option === "on")
+        await sock.sendMessage(from, { text: `✅ Anti-Link is now ${option.toUpperCase()}` }, { quoted: msg })
+    },
+
+    // Function to check messages and delete if link is posted
+    async checkMessage(sock, msg) {
+        if (!msg.key.remoteJid.endsWith("@g.us")) return
+        const groupId = msg.key.remoteJid
+        const sender = msg.key.participant
+
+        const group = await sock.groupMetadata(groupId)
+        const admins = group.participants.filter(p => p.admin).map(p => p.id)
+
+        const antiLinkEnabled = antiLinkGroups.get(groupId)
+        if (!antiLinkEnabled) return
+
+        const text =
+            msg.message?.conversation ||
+            msg.message?.extendedTextMessage?.text ||
+            msg.message?.imageMessage?.caption ||
+            msg.message?.videoMessage?.caption ||
+            ""
+
+        // Detect WhatsApp group link
+        const linkRegex = /chat\.whatsapp\.com\/[0-9A-Za-z]+/i
+        if (linkRegex.test(text) && !admins.includes(sender)) {
+            try {
+                // Delete the message
+                await sock.sendMessage(groupId, { delete: msg.key })
+                await sock.sendMessage(groupId, { text: `❌ @${sender.split("@")[0]} posting group links is not allowed!`, mentions: [sender] })
+            } catch (err) {
+                console.error("Anti-link error:", err)
+            }
+        }
+    }
+}
+
+module.exports = {
+    caller: "join",
+    aliases: [],
+    react: "🤖",
+    fromWho: true, // owner-only
+
+    async execute(sock, msg, args) {
+        const owner = process.env.OWNER_NUMBER + "@s.whatsapp.net"
+        const sender = msg.key.participant || msg.key.remoteJid
+
+        if (sender !== owner) {
+            return sock.sendMessage(msg.key.remoteJid, { text: "❌ Only the bot owner can use this command." }, { quoted: msg })
+        }
+
+        const inviteLink = args[0]
+        if (!inviteLink) {
+            return sock.sendMessage(msg.key.remoteJid, { text: "❌ Usage: .join <invite link>" }, { quoted: msg })
+        }
+
+        try {
+            // Extract code from the link
+            const codeMatch = inviteLink.match(/(https:\/\/chat\.whatsapp\.com\/)([0-9A-Za-z]+)/)
+            if (!codeMatch) {
+                return sock.sendMessage(msg.key.remoteJid, { text: "❌ Invalid WhatsApp group invite link." }, { quoted: msg })
+            }
+            const inviteCode = codeMatch[2]
+
+            // Accept the invite
+            await sock.groupAcceptInvite(inviteCode)
+
+            await sock.sendMessage(msg.key.remoteJid, { text: `✅ Successfully joined the group!` }, { quoted: msg })
+        } catch (err) {
+            console.error("Join error:", err)
+            await sock.sendMessage(msg.key.remoteJid, { text: "❌ Failed to join the group. Make sure the link is valid." }, { quoted: msg })
+        }
+    }
+}
+
+module.exports = {
+    caller: "leave",
+    aliases: ["bye"],
+    react: "👋",
+    fromWho: true, // owner-only
+
+    async execute(sock, msg) {
+        const owner = process.env.OWNER_NUMBER + "@s.whatsapp.net"
+        const sender = msg.key.participant || msg.key.remoteJid
+
+        if (sender !== owner) {
+            return sock.sendMessage(msg.key.remoteJid, { text: "❌ Only the bot owner can use this command." }, { quoted: msg })
+        }
+
+        const groupId = msg.key.remoteJid
+        if (!groupId.endsWith("@g.us")) {
+            return sock.sendMessage(groupId, { text: "❌ This command can only be used in groups." }, { quoted: msg })
+        }
+
+        await sock.sendMessage(groupId, { text: "👋 Leaving the group..." }, { quoted: msg })
+
+        try {
+            await sock.groupLeave(groupId)
+        } catch (err) {
+            console.error("Leave group error:", err)
+            await sock.sendMessage(groupId, { text: "❌ Failed to leave the group." })
+        }
+    }
+            }
+
