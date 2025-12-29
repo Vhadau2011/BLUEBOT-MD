@@ -2,8 +2,15 @@
 # 🖤 BLUEBOT-MD
 
 <p align="center">
-  <img src="https://files.catbox.moe/xxe1ar.jpg" alt="DARKHEART-MD Banner" width="100%">
+  <img src="https://files.catbox.moe/xxe1ar.jpg" alt="BLUEBOT-MD Banner" width="100%">
 </p>  
+
+| Feature             | Description                                                  |
+| ------------------- | ------------------------------------------------------------ |
+| 🎛️ **Multi-device** | Use the same bot on several devices simultaneously           |
+| ⚡ **Performance**  | Optimized response time thanks to a lightweight architecture |
+| 🧩 **Modular**      | Enable/disable modules as needed                             |
+
 
 ---
 
