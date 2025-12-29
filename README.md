@@ -2,7 +2,7 @@
 # 🖤 BLUEBOT-MD
 
 <p align="center">
-  <img src="https://files.catbox.moe/yhi316.jpg" alt="DARKHEART-MD Banner" width="100%">
+  <img src="https://files.catbox.moe/xxe1ar.jpg" alt="DARKHEART-MD Banner" width="100%">
 </p>  
 
 ---
