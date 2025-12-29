@@ -1,7 +1,7 @@
 "use strict";
 
 /*
- * DARKHEART-MD – REPO RULES ENFORCER
+ * BLUEBOT-MD – REPO RULES ENFORCER
  * Trusted Team: ⨺⃝Х
  * Unauthorized modification is strictly forbidden.
  */
@@ -10,7 +10,7 @@ const fs = require("fs");
 const path = require("path");
 
 const REQUIRED = {
-  PROJECT_NAME: "DARKHEART-MD",
+  PROJECT_NAME: "BLUEBOT-MD",
   TRUSTED_TEAM: "⨺⃝Х",
   REQUIRED_FILES: [
     "index.js",
@@ -21,7 +21,7 @@ const REQUIRED = {
 };
 
 function hardExit(reason) {
-  console.error("\n[DARKHEART-MD SECURITY VIOLATION]");
+  console.error("\n[BLUEBOT-MD SECURITY VIOLATION]");
   console.error(reason);
   console.error("Execution halted.\n");
   process.exit(1);
