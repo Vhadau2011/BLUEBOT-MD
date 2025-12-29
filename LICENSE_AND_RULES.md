@@ -1,82 +1,131 @@
-# LICENSE AND RULES FOR USING THIS REPOSITORY
 
-**Copyright (c) 2025 mudau_t**
+## ⨺⃝Х CUSTOM PROPRIETARY & RESTRICTED SOFTWARE LICENSE
 
-All Rights Reserved.
+**LICENSE, TERMS, CONDITIONS, AND USAGE RULES**
 
-This repository and all of its contents, including but not limited to source code, scripts, assets, documentation, and media files (collectively referred to as the "Software") are the sole property of **mudau_t** and the ⨺⃝Х team. By accessing, using, or distributing this Software, you agree to comply with the following terms and conditions:
+**Copyright © 2025 mudau_t
+All Rights Reserved**
 
----
+This repository, including all files, folders, data, and materials contained herein, is protected by copyright law and international intellectual property treaties.
+PREAMBLE
 
-## 1. Permitted Use
+This License Agreement (the “Agreement”) is a legally binding contract between you (the individual or entity accessing the repository) and mudau_t, acting individually and on behalf of the ⨺⃝Х Team (collectively referred to as the “Licensor”).
+By accessing, viewing, cloning, downloading, copying, executing, or otherwise using any portion of this repository, you acknowledge that you have read, understood, and agreed to all terms of this Agreement without reservation.
+If you do not agree to these terms, you are strictly prohibited from using this Software.
 
-You are allowed to:
+## 1. DEFINITIONS
 
-1. View the code for learning or educational purposes.  
-2. Use the Software **as-is** for personal or non-commercial projects.  
-3. Reference the code in your personal studies, research, or development, provided you **credit mudau_t and the ⨺⃝Х team**.  
+For the purposes of this Agreement:
+“Software” refers to the entire repository and all of its contents, including but not limited to:
+Source code
+Compiled code
+Scripts and configuration files
+Assets, images, icons, logos
+Documentation and text
+Metadata, commit history, and structure
+“Licensor” refers to mudau_t and the ⨺⃝Х Team.
+“User” refers to any individual or entity who accesses or interacts with the Software.
+“Use” includes, but is not limited to, viewing, executing, copying, studying, analyzing, referencing, or interacting with the Software in any way.
 
----
+## 2. OWNERSHIP AND RIGHTS
 
-## 2. Prohibited Actions
+The Software is the exclusive intellectual property of the Licensor.
+All copyrights, moral rights, trademarks, and related rights remain solely with the Licensor.
+This Agreement grants no ownership rights and conveys no implied permissions.
+Any attempt to claim ownership, authorship, or partial rights is unlawful and constitutes infringement.
 
-You are **strictly prohibited** from:
+## 3. GRANT OF LIMITED LICENSE
 
-1. Modifying, altering, or creating derivative works based on this Software.  
-2. Redistributing the Software, whether modified or unmodified, without explicit written permission.  
-3. Selling, licensing, or claiming this Software as your own.  
-4. Removing, altering, or obfuscating the copyright notice, this license, or any reference to mudau_t or the ⨺⃝Х team.  
-5. Using the Software to harm, spam, scam, or violate the rules of any third-party platforms or services.  
+Subject to strict compliance with this Agreement, the Licensor grants the User a limited, revocable, non-exclusive, non-transferable, non-sublicensable license to:
+View the Software for educational, inspection, and learning purposes only.
+Use the Software exactly as provided, without modification, for personal and non-commercial purposes.
+Reference the Software in discussions or demonstrations only with explicit credit to the Licensor.
+This license may be revoked at any time, with or without notice.
 
----
+## 4. ABSOLUTE RESTRICTIONS
 
-## 3. Credit and Attribution
+The User shall NOT, under any circumstances:
+Modify, adapt, translate, enhance, or alter the Software.
+Decompile, disassemble, reverse-engineer, or attempt to derive source logic.
+Create derivative works, forks, mirrors, or alternative distributions.
+Redistribute the Software by any means, including but not limited to GitHub, GitLab, private servers, archives, or messaging platforms.
+Sell, rent, lease, license, monetize, or commercially exploit the Software.
+Remove, modify, obscure, or bypass any license notices or copyright statements.
+Represent the Software as your own or as part of another project.
+Use the Software to violate laws, platform policies, or ethical standards.
+Employ the Software in spam, abuse, scams, automation abuse, or malicious activity.
+Attempt to circumvent safeguards, restrictions, or enforcement mechanisms.
 
-- All users **must give clear credit** to mudau_t and the ⨺⃝Х team whenever the Software is referenced, demonstrated, or used in public projects.  
-- Credit should be placed in **project documentation, README files, or any published content** using this Software.  
-- Any breach of attribution rules will be considered a violation of this license.
+## 5. ATTRIBUTION AND CREDIT 
 
----
+OBLIGATIONS
+Any public use, mention, or demonstration must clearly credit: **mudau_t and the ⨺⃝Х Team**.
+Attribution must be visible, readable, and permanent within documentation or media.
+Failure to properly attribute constitutes license breach and infringement.
 
-## 4. Trust in the ⨺⃝Х Team
 
-- Users of this repository must **always trust the ⨺⃝Х team** in all matters related to this Software.  
-- Guidance, instructions, or updates provided by the ⨺⃝Х team must be followed **without modification** unless explicitly permitted.  
-- Ignoring or bypassing the authority of the ⨺⃝Х team is considered a serious violation of this license.  
+## 6. AUTHORITY AND CONTROL OF THE ⨺⃝Х TEAM
 
----
+**The ⨺⃝Х Team maintains full authority over:**
+Usage rules
+Updates and changes
+Permissions and revocations
+Instructions issued by the **⨺⃝Х Team** are binding and enforceable.
+Disregarding or challenging this authority voids this license immediately.
 
-## 5. Disclaimer
+## 7. NO WARRANTY DISCLAIMER
 
-- This Software is provided "as-is" without any warranties of any kind, either express or implied.  
-- The author and the ⨺⃝Х team are not responsible for any damage, loss, or misuse resulting from using the Software.  
-- Users take full responsibility for how they use this Software, as long as they comply with these rules.  
+The Software is provided “AS IS”, “WITH ALL FAULTS”, and “AS AVAILABLE”.
+No guarantees are made regarding functionality, accuracy, availability, or compatibility.
+The Licensor disclaims all warranties, express or implied. 
 
----
+## 9. LIMITATION OF LIABILITY
 
-## 6. Enforcement
+The Licensor shall not be liable for any damages of any kind, including:
+Financial loss
+Data loss
+Account suspension or bans
+Legal consequences
+Use of the Software is entirely at the User’s own risk.
 
-- Violating any rule in this document may result in **legal action** or a **formal complaint to GitHub**.  
-- The ⨺⃝Х team reserves the right to revoke any permissions granted to users at any time.  
-- Reporting violations or abuse is encouraged and will be acted upon promptly by the ⨺⃝Х team.  
+## 10. TERMINATION
+    
+Any violation results in immediate termination of all granted rights.
+Upon termination, the User must:
+Cease all use
+Delete all copies
+Destroy derived materials
+Termination does not waive the Licensor’s legal rights.
 
----
+## 12. ENFORCEMENT AND REMEDIES
 
-## 7. Summary of Core Rules
+The Licensor reserves the right to:
+Issue takedown notices
+Report violations to GitHub or other platforms
+Pursue civil or legal action
+Remedies may include injunctions, damages, and account bans.
 
-1. Use the Software as-is.  
-2. Do **not** modify the Software.  
-3. Do **not** redistribute modified versions.  
-4. Give credit to Mudau_t and the ⨺⃝Х team.  
-5. Always trust and follow the instructions of the ⨺⃝Х team.  
-6. Do not use the Software for malicious or illegal purposes.  
+## 13. GOVERNING LAW
 
----
+This Agreement shall be governed by and interpreted under the laws applicable to the Licensor’s jurisdiction, without regard to conflict-of-law principles.
 
-## 8. Acceptance
+## 14. SEVERABILITY
 
-By using, downloading, or accessing this Software, you acknowledge that you have read, understood, and agreed to abide by all terms listed above.  
+If any provision is found invalid or unenforceable, the remaining provisions shall remain in full force.
 
-**Mudau Thendo (mudau_t / thendo_m)**  
-**⨺⃝Х Team**  
-© 2025 All rights reserved.
+## 15. ENTIRE AGREEMEN
+This Agreement constitutes the entire understanding between the User and the Licensor and supersedes all prior discussions or agreements.
+
+## 17. ACCEPTANCE
+By accessing or using this Software, you acknowledge full acceptance of this Agreement.
+If you do not agree, do not use this Software.
+**mudau_t**
+**⨺⃝Х Team**
+## © 2025 — ALL RIGHTS RESERVED
+If you want, I can next:
+Make this even more aggressive
+Add a commercial licensing clause
+Add DMCA-specific language
+Create a short summary license + full legal license
+Tailor it specifically for WhatsApp bots / automation projects
+Just tell me.
