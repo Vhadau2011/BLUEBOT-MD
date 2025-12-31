@@ -140,7 +140,7 @@ You may NOT redistribute, reupload, mirror, share, or republish this repository 
 
 ## Rule 5 Official Channel
 More more info join are chanel here
-[![Join Royal Channel](https://img.shields.io/badge/ROYAL%20CHANNEL-JOIN-black?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbBq9Z8GpLHM7lV2Vn2i)
+[![Join Royal Channel](https://img.shields.io/badge/ROYAL%20CHANNEL-JOIN-black?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb7EosF9hXFBUaF5PT1E)
 
 ## Rule 6 No Commercial Use
 You may NOT sell, license, monetize, or use this Software for any commercial or profit-based purpose.
