@@ -9,8 +9,8 @@ A Powerful, Modular WhatsApp Multi-Device Bot
 
 ## 📌 Overview
 
-BLUEBOT-MD is a modern, feature-rich WhatsApp Multi-Device (MD) bot built using the Baileys library.
-It is designed to be fast, modular, customizable, and scalable, making it suitable for personal use, communities, and advanced bot developers.
+**BLUEBOT-MD** is a modern, feature-rich WhatsApp Multi-Device (MD) bot built using the Baileys library.
+It is designed to be fast, modular, and scalable, making it suitable for personal use, communities, and advanced bot developers.
 
 This project focuses on:
 
@@ -32,14 +32,14 @@ BLUEBOT-MD is ideal for users who want full control over their bot while keeping
 
 ## 👑 Author & Credits
 
-Main Developer: mudau_t
+Main Developer: **mudau_t**
 
-Real Name: Mudau Thendo
+Real Name: **Mudau Thendo**
 
-Project Name: BLUEBOT-MD
+Project Name: **BLUEBOT-MD**
 
 
-> This repository was built, structured, and maintained by mudau_t (Mudau Thendo).
+> This repository was built, structured, and maintained by **mudau_t (Mudau Thendo)**.
 Respect the author’s work and license when modifying or redistributing.
 
 
@@ -111,19 +111,6 @@ The  **BLUEBOT-MD** channel
 
 [![Join Royal Channel](https://img.shields.io/badge/ROYAL%20CHANNEL-JOIN-black?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbBq9Z8GpLHM7lV2Vn2i)
 
----
-## 🧩 Project Structure
-
-BLUEBOT-MD/
-│
-├── plugins/          # All command plugins
-├── lib/              # Core bot utilities and helpers
-├── session/          # WhatsApp session files
-├── config.js         # Bot configuration
-├── index.js          # Main entry point
-├── package.json      # Dependencies and scripts
-└── README.md         # Project documentation
-
 
 ---
 
@@ -158,7 +145,7 @@ Local PC (Windows/Linux)
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/BLUEBOT-MD.git
+git clone https://github.com/Vhada2011/BLUEBOT-MD.git
 cd BLUEBOT-MD
 
 2️⃣ Install Dependencies
@@ -238,7 +225,7 @@ Plugins are written to be simple and beginner-friendly, while still powerful for
 
 ## 🧪 Stability & Performance
 
-BLUEBOT-MD is optimized for:
+**BLUEBOT-MD** is optimized for:
 
 Long uptime
 
@@ -282,7 +269,7 @@ Improve
 
 You are required to:
 
-Keep credits to mudau_t (Mudau Thendo)
+Keep credits to **mudau_t (Mudau Thendo)**
 
 Respect the original license
 
@@ -312,10 +299,10 @@ Fork the repository and submit a pull request.
 
 ## 💙 Final Note
 
-BLUEBOT-MD was built with passion, learning, and dedication.
+**BLUEBOT-MD** was built with passion, learning, and dedication.
 If you use or modify this bot, respect the effort behind it.
 
-> Built by mudau_t (Mudau Thendo)
+> Built by **mudau_t (Mudau Thendo)**
 Project: **BLUEBOT-MD**
 
 
