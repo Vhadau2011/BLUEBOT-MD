@@ -1,7 +1,7 @@
 {
-  "name": "darkheart-md",
+  "name": "bluebot-md",
   "version": "1.0.0",
-  "description": "DARKHEART-MD WhatsApp Multi-Device Bot",
+  "description": "BLUEBOT-MD WhatsApp Multi-Device Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
