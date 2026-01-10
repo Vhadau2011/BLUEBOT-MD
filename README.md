@@ -316,8 +316,18 @@ Project: **BLUEBOT-MD**
   <img src="https://files.catbox.moe/xxe1ar.jpg" alt="BLUEBOT-MD Banner" width="100%">
 </p>  
 
-
 <!-- Decorative Divider -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff66&height=90&section=footer" style="margin-top:-30px;" />
-  <br/><sub>Styled by <a href="https://github.com/AiOfLautech">AiOfLautech</a> | Powered by ☕ & ❤️ | 
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=007bff&height=90&section=footer" style="margin-top:-30px;" />
+  <br>
+  <span style="font-size:10px;">🔴</span>
+  <br/>
+  <sub>
+    Styled by <a href="https://github.com/AiOfLautech">Vhadau2011</a> | Powered by ☕ & ❤️
+  </sub>
+</div>
+
+<video controls width="600" autoplay muted loop>
+  <source src="https://cdn.kord.live/serve/1FhrzdsT6lSc.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
