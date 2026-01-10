@@ -315,3 +315,9 @@ Project: **BLUEBOT-MD**
 <p align="center">
   <img src="https://files.catbox.moe/xxe1ar.jpg" alt="BLUEBOT-MD Banner" width="100%">
 </p>  
+
+
+<!-- Decorative Divider -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff66&height=90&section=footer" style="margin-top:-30px;" />
+  <br/><sub>Styled by <a href="https://github.com/AiOfLautech">AiOfLautech</a> | Powered by ☕ & ❤️ | 
