@@ -11,15 +11,25 @@ const {
 // Robust import for makeInMemoryStore
 let makeInMemoryStore;
 try {
-    makeInMemoryStore = Baileys.makeInMemoryStore || require('@whiskeysockets/baileys/lib/Store').makeInMemoryStore;
+    // Try standard export
+    makeInMemoryStore = Baileys.makeInMemoryStore;
+    if (!makeInMemoryStore) {
+        // Try direct lib import
+        makeInMemoryStore = require('@whiskeysockets/baileys/lib/Store').makeInMemoryStore;
+    }
 } catch (e) {
     try {
+        // Try alternative export
         makeInMemoryStore = require('@whiskeysockets/baileys').makeInMemoryStore;
     } catch (e2) {
         console.error('Failed to load makeInMemoryStore:', e2);
-        // Fallback to a dummy store if it absolutely cannot be loaded
-        makeInMemoryStore = () => ({ bind: () => {} });
     }
+}
+
+// Final fallback: dummy store to prevent crash
+if (typeof makeInMemoryStore !== 'function') {
+    console.log('Using dummy store fallback');
+    makeInMemoryStore = () => ({ bind: () => {}, readFromFile: () => {}, writeToFile: () => {} });
 }
 
 const { Boom } = require('@hapi/boom');
@@ -69,7 +79,9 @@ async function startBot() {
         browser: [botName, 'Chrome', '1.0.0']
     });
 
-    if (store && store.bind) store.bind(sock.ev);
+    if (store && typeof store.bind === 'function') {
+        store.bind(sock.ev);
+    }
 
     sock.ev.on('creds.update', saveCreds);
 
